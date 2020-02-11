@@ -1,3 +1,10 @@
-body{
-  background-color: red;
+@import './rest.css';
+/* ----- FONTS -------*/
+@import "./settings/fonts";
+/* ----- COLORS -------*/
+@import "./settings/collors";
+
+
+body {
+  font-family: $font-base;
 }
