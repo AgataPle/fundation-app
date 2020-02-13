@@ -113,3 +113,40 @@ body {
 .test {
   font-size: 100px;
 }
+
+/*---- Statistics ------*/
+.infoContaner {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  padding: 46px 163px 86px;
+  background: transparent url("../assets/3 Columns Background.png") 0% 0% no-repeat padding-box;
+}
+
+.infoColumn {
+  text-align: center;
+}
+
+.infoColumnFirst, .infoColumnSecond {
+  margin-right: 286px;
+}
+
+.statNumber {
+  font-size: 90px;
+  color: $brown;
+  margin-bottom: 10px;
+}
+
+.statInfo {
+  font-size: 18px;
+  color: $darkGrey;
+  text-transform: uppercase;
+  margin-bottom: 28px;
+}
+
+.statDescription {
+  font-family: $font-alt;
+  font-size: 16px;
+  color: $darkGrey;
+}

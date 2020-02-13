@@ -1,6 +1,8 @@
 import React, {Component} from 'react';
 
 import HomePageGrid from './topPage';
+import HomeThreeColumns from './homeThreeColumns';
+
 import Section from './Section';
 import dummyText from './DummyText';
 
@@ -12,6 +14,7 @@ export default class Home extends Component {
                     <HomePageGrid/>
 
                 </div>
+                <HomeThreeColumns/>
                 <div className="scrollTest">
 
                     <Section
