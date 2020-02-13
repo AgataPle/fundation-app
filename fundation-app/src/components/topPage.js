@@ -7,13 +7,14 @@ import {
     NavLink,
     Link
 } from 'react-router-dom';
+import {animateScroll as scroll} from "react-scroll";
+import NavBar from './Navbar';
 
 
 export default class HomePageGrid extends Component {
     render() {
         return (
             <div className="containerGrig">
-
 
                 <Grid item xs={12}>
                     <img className="banner" src={banner}/>
@@ -28,17 +29,17 @@ export default class HomePageGrid extends Component {
                         </div>
                     </Grid>
                     <Grid item xs={12}>
+                        <NavBar/>
+                        {/*<nav className="page-nav page-nav-list">*/}
+                        {/*    <HashRouter>*/}
+                        {/*        <NavLink to="#" className="linkName start">Start</NavLink>*/}
+                        {/*        <NavLink to="#" className="linkName">O co chodzi?</NavLink>*/}
+                        {/*        <NavLink to="#" className="linkName">O nas</NavLink>*/}
+                        {/*        <NavLink to="#" className="linkName">Fundacja i organizacje</NavLink>*/}
+                        {/*        <NavLink to="#" className="linkName lastLink">Kontakt</NavLink>*/}
+                        {/*    </HashRouter>*/}
 
-                        <nav className="page-nav page-nav-list">
-                            <HashRouter>
-                                <NavLink to="#" className="linkName start">Start</NavLink>
-                                <NavLink to="#" className="linkName">O co chodzi?</NavLink>
-                                <NavLink to="#" className="linkName">O nas</NavLink>
-                                <NavLink to="#" className="linkName">Fundacja i organizacje</NavLink>
-                                <NavLink to="#" className="linkName lastLink">Kontakt</NavLink>
-                            </HashRouter>
-
-                        </nav>
+                        {/*</nav>*/}
 
                     </Grid>
                     <Grid item xs={12}>

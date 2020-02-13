@@ -1,6 +1,9 @@
 import React, {Component} from 'react';
 
-import HomePageGrid from './lpGrid';
+import HomePageGrid from './topPage';
+import Navbar from './Navbar';
+import Section from './Section';
+import dummyText from './DummyText';
 
 export default class Home extends Component {
     render() {
@@ -10,7 +13,39 @@ export default class Home extends Component {
                     <HomePageGrid/>
 
                 </div>
+                <div className="scrollTest">
 
+                    <Section
+                        title="Section 1"
+                        subtitle={dummyText}
+                        dark={true}
+                        id="section1"
+                    />
+                    <Section
+                        title="Section 2"
+                        subtitle={dummyText}
+                        dark={false}
+                        id="section2"
+                    />
+                    <Section
+                        title="Section 3"
+                        subtitle={dummyText}
+                        dark={true}
+                        id="section3"
+                    />
+                    <Section
+                        title="Section 4"
+                        subtitle={dummyText}
+                        dark={false}
+                        id="section4"
+                    />
+                    <Section
+                        title="Section 5"
+                        subtitle={dummyText}
+                        dark={true}
+                        id="section5"
+                    />
+                </div>
             </div>
         )
     }
