@@ -5,6 +5,7 @@ import {ReactComponent as Decoration} from '../assets/Decoration.svg';
 import {
     HashRouter,
     NavLink,
+    Link
 } from 'react-router-dom';
 
 
@@ -22,8 +23,9 @@ export default class HomePageGrid extends Component {
                 <Grid className="rightContentGrid">
                     <Grid item xs={12}>
                         <div className="loginButtons">
-                            <a className="loginLink login">Zaloguj</a>
-                            <a className="loginLink makeAccount">Załuż konto</a></div>
+                            <Link to="/login" className="loginLink login">Zaloguj</Link>
+                            <Link to="/rejestration" className="loginLink makeAccount">Załuż konto</Link>
+                        </div>
                     </Grid>
                     <Grid item xs={12}>
 
@@ -45,9 +47,9 @@ export default class HomePageGrid extends Component {
                             <div><h2 className="mainInfo">Zacznij pomagać!<br/>Oddaj niechciane rzeczy w zaufane ręce
                             </h2></div>
                             <div><Decoration/></div>
-                            <div>
-                                <button className="btn">ODDAJ<br/>RZECZY</button>
-                                <button className="btn btn1">ZORGANIZUJ<br/>ZBIÓRKĘ</button>
+                            <div className="infoButton">
+                                <Link to="/login" className="toLoginSection btn">ODDAJ<br/>RZECZY</Link>
+                                <Link to="/login" className="toLoginSection btn btn1">ZORGANIZUJ<br/>ZBIÓRKĘ</Link>
                             </div>
                         </div>
                     </Grid>

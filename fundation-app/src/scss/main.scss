@@ -38,8 +38,12 @@ body {
   color: $lightGrey;
 }
 
+
 .loginLink {
   padding: 10px;
+  font-size: 14px;
+  color: $lightGrey;
+  text-decoration: none;
 }
 
 .makeAccount {
@@ -84,10 +88,24 @@ body {
   width: 310px;
   height: 120px;
   border: 0.75 solid $lightGrey;
-  font-size: 36px;
   margin-top: 60px;
+}
+
+.toLoginSection {
+  font-size: 36px;
+  text-decoration: none;
+  color: $darkGrey;
+  border: 0.75px solid $darkGrey;
+  padding-top: 13px;
 }
 
 .btn1 {
   margin-left: 44px;
+}
+
+.infoButton {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
 }
