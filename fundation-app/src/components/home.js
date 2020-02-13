@@ -1,14 +1,17 @@
 import React, {Component} from 'react';
-import HomeHeader from './homeHeader';
-import HomeThreeColumns from './homeThreeColumns';
+
+import HomePageGrid from './lpGrid';
 
 export default class Home extends Component {
     render() {
         return (
-            <>
-                <HomeHeader/>
-                <HomeThreeColumns/>
-            </>
+            <div className="landingPage">
+                <div className="mainPage">
+                    <HomePageGrid/>
+
+                </div>
+
+            </div>
         )
     }
 }

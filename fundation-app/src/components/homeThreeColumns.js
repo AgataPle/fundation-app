@@ -1,9 +1,11 @@
 import React, {Component} from 'react';
 
-export default class HomeThreeColumns extends Component{
+export default class HomeThreeColumns extends Component {
     render() {
-        return(
-            <h1>HomeThreeColumns</h1>
+        return (
+            <div className="proba">
+                <h1>HomeThreeColumns</h1>
+            </div>
         )
     }
 }
