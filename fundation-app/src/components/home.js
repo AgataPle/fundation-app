@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 
 import HomePageGrid from './topPage';
 import HomeThreeColumns from './homeThreeColumns';
+import SimpleSteps from './simpleSteps';
 
 import Section from './Section';
 import dummyText from './DummyText';
@@ -15,6 +16,7 @@ export default class Home extends Component {
 
                 </div>
                 <HomeThreeColumns/>
+                <SimpleSteps/>
                 <div className="scrollTest">
 
                     <Section
