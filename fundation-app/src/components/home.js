@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 
 import HomePageGrid from './topPage';
-import Navbar from './Navbar';
 import Section from './Section';
 import dummyText from './DummyText';
 

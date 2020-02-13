@@ -14,7 +14,7 @@ export default class Navbar extends Component {
                         <li className="nav-item start">
                             <Link
                                 activeClass="active"
-                                to="section1"
+                                to="section2"
                                 spy={true}
                                 smooth={true}
                                 offset={-70}
