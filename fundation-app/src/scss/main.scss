@@ -110,9 +110,6 @@ body {
   flex-direction: row;
 }
 
-.test {
-  font-size: 100px;
-}
 
 /*---- Statistics ------*/
 .infoContaner {
@@ -172,4 +169,98 @@ body {
   justify-content: space-around;
   align-items: center;
   flex-direction: row;
+  background: #F0F1F1 0% 0% no-repeat padding-box;
+  padding-top: 73px;
+  padding-bottom: 80px;
+  margin-bottom: 35px;
 }
+
+.iconTitle {
+  margin: 8px 3px;
+  font-size: 18px;
+
+}
+
+.iconInfo {
+  font-size: 16px;
+}
+
+.horizontalLine {
+  width: 70px;
+}
+
+.componentBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.uniwersalBtn {
+  margin-top: 35px;
+  margin-bottom: 93px;
+  padding-top: 13px;
+  padding-left: 93px;
+}
+
+/*----- About us ----- */
+
+//.containerAboutUs {
+//  margin-bottom: 70px;
+//  display: flex;
+//  justify-content: space-between;
+//  align-items: center;
+//  flex-direction: row;
+//  height: 935px;
+//  background-color: #F0F1F1;
+//}
+
+.containerAboutUs {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  height: 935px;
+  background-color: #F0F1F1;
+}
+
+
+.aboutUsInfo {
+  font-size: 30px;
+  text-align: center;
+  width: 656px;
+}
+
+
+.aboutUsInfoContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.signature {
+  height: 100%;
+}
+
+.aboutUsInfoContainer {
+  width: 958px;
+}
+
+.aboutUsInfoImg {
+  width: 942px;
+}
+
+.aboutUsTitle {
+  margin-top: 186px;
+  margin-bottom: 39px;
+  font-size: 38px;
+}
+
+.aboutUsDeco {
+  margin-bottom: 61px;
+}
+
+.aboutUsInfo {
+  margin-bottom: 41px;
+}
+
+

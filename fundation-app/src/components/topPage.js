@@ -2,12 +2,7 @@ import React, {Component} from 'react';
 import banner from '../assets/Home-Hero-Image.jpg';
 import Grid from '@material-ui/core/Grid';
 import {ReactComponent as Decoration} from '../assets/Decoration.svg';
-import {
-    HashRouter,
-    NavLink,
-    Link
-} from 'react-router-dom';
-import {animateScroll as scroll} from "react-scroll";
+import {Link} from 'react-router-dom';
 import NavBar from './Navbar';
 
 
@@ -30,16 +25,6 @@ export default class HomePageGrid extends Component {
                     </Grid>
                     <Grid item xs={12}>
                         <NavBar/>
-                        {/*<nav className="page-nav page-nav-list">*/}
-                        {/*    <HashRouter>*/}
-                        {/*        <NavLink to="#" className="linkName start">Start</NavLink>*/}
-                        {/*        <NavLink to="#" className="linkName">O co chodzi?</NavLink>*/}
-                        {/*        <NavLink to="#" className="linkName">O nas</NavLink>*/}
-                        {/*        <NavLink to="#" className="linkName">Fundacja i organizacje</NavLink>*/}
-                        {/*        <NavLink to="#" className="linkName lastLink">Kontakt</NavLink>*/}
-                        {/*    </HashRouter>*/}
-
-                        {/*</nav>*/}
 
                     </Grid>
                     <Grid item xs={12}>

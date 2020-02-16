@@ -17,7 +17,7 @@ export default class Navbar extends Component {
                                 to="section2"
                                 spy={true}
                                 smooth={true}
-                                offset={-70}
+
                                 duration={500}
                             >
                                 Start
@@ -29,7 +29,7 @@ export default class Navbar extends Component {
                                 to="section2"
                                 spy={true}
                                 smooth={true}
-                                offset={-70}
+
                                 duration={500}
                             >
                                 O co chodzi?
@@ -41,7 +41,7 @@ export default class Navbar extends Component {
                                 to="section3"
                                 spy={true}
                                 smooth={true}
-                                offset={-70}
+
                                 duration={500}
                             >
                                 O nas
@@ -53,7 +53,7 @@ export default class Navbar extends Component {
                                 to="section4"
                                 spy={true}
                                 smooth={true}
-                                offset={-70}
+
                                 duration={500}
                             >
                                 Fundacja i organizacje
@@ -65,7 +65,7 @@ export default class Navbar extends Component {
                                 to="section5"
                                 spy={true}
                                 smooth={true}
-                                offset={-70}
+
                                 duration={500}
                             >
                                 Kontakt
