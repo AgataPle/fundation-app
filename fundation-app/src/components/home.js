@@ -4,6 +4,7 @@ import HomePageGrid from './topPage';
 import HomeThreeColumns from './homeThreeColumns';
 import SimpleSteps from './simpleSteps';
 import AboutUs from './aboutUs';
+import Organizations from './organizations';
 
 import Section from './Section';
 import dummyText from './DummyText';
@@ -19,6 +20,7 @@ export default class Home extends Component {
                 <HomeThreeColumns/>
                 <SimpleSteps/>
                 <AboutUs/>
+                <Organizations/>
                 <div className="scrollTest">
 
                     <Section

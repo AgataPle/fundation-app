@@ -263,4 +263,44 @@ body {
   margin-bottom: 41px;
 }
 
+/*----Organizations -----*/
+.organizationsContainer {
+  margin-top: 70px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
 
+}
+
+.organizationsContent {
+  width: 1344px;
+
+}
+
+.ogranizationsTypes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  font-size: 24px;
+}
+
+.organizationsTitle {
+  margin-bottom: 39px;
+  font-size: 38px;
+}
+
+.organizationsDeco {
+  margin-bottom: 68px;
+}
+
+.fundations {
+  margin-right: 149px;
+}
+
+.organizations {
+  margin-right: 157px;
+}
