@@ -6,50 +6,46 @@ import SimpleSteps from './simpleSteps';
 import AboutUs from './aboutUs';
 import Organizations from './organizations';
 
+import LocalCollectionsComponent from './organizationTypes';
+
 import Section from './Section';
-import dummyText from './DummyText';
+import organizationsData from '../data/localCollectionData'
 
 export default class Home extends Component {
     render() {
         return (
-            <div className="landingPage">
-                <div className="mainPage">
-                    <HomePageGrid/>
+            <div>
 
-                </div>
+                <HomePageGrid/>
                 <HomeThreeColumns/>
                 <SimpleSteps/>
                 <AboutUs/>
                 <Organizations/>
+                <LocalCollectionsComponent
+                    localCollections={organizationsData}/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
                 <div className="scrollTest">
 
                     <Section
-                        title="Section 1"
-                        subtitle={dummyText}
                         dark={true}
                         id="section1"
                     />
                     <Section
-                        title="Section 2"
-                        subtitle={dummyText}
                         dark={false}
                         id="section2"
                     />
                     <Section
-                        title="Section 3"
-                        subtitle={dummyText}
                         dark={true}
                         id="section3"
                     />
                     <Section
-                        title="Section 4"
-                        subtitle={dummyText}
                         dark={false}
                         id="section4"
                     />
                     <Section
-                        title="Section 5"
-                        subtitle={dummyText}
                         dark={true}
                         id="section5"
                     />

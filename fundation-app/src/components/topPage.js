@@ -9,6 +9,7 @@ import NavBar from './Navbar';
 export default class HomePageGrid extends Component {
     render() {
         return (
+
             <div className="containerGrig">
 
                 <Grid item xs={12}>

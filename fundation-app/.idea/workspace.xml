@@ -2,10 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="795993bb-7437-4faa-a4d8-d46e9ab499d8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/organizations.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/oneColumn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/organizationTypes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/simpleStep.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/fundationData.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/localCollectionData.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/DummyText.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/aboutUs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/aboutUs.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/homeThreeColumns.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/homeThreeColumns.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/organizations.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/organizations.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/simpleSteps.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/simpleSteps.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/topPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/topPage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/main.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -25,29 +35,47 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/home.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+            <state relative-caret-position="357">
+              <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/scss/main.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="316">
+              <caret line="354" column="22" selection-start-line="354" selection-start-column="22" selection-end-line="354" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/scss/settings/_collors.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="5" selection-start-line="4" selection-end-line="4" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/scss/main.scss">
+        <entry file="file://$PROJECT_DIR$/src/components/organizationTypes.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="401">
-              <caret line="304" column="21" selection-start-line="304" selection-start-column="21" selection-end-line="304" selection-end-column="21" />
+            <state relative-caret-position="55">
+              <caret line="21" column="40" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/organizations.js">
+        <entry file="file://$PROJECT_DIR$/src/components/aboutUs.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="56" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="56" />
+            <state relative-caret-position="225">
+              <caret line="18" column="48" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="48" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -56,10 +84,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/simpleSteps.js">
+        <entry file="file://$PROJECT_DIR$/src/components/oneColumn.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="43" selection-start-line="1" selection-end-line="2" />
+            <state relative-caret-position="45">
+              <caret line="3" column="40" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -77,10 +105,23 @@
     <findStrings>
       <find>rest</find>
       <find>index</find>
-      <find>simpleStepsInfo</find>
       <find>toLoginSection</find>
-      <find>simpleSteps</find>
+      <find>background</find>
+      <find>background-image</find>
+      <find>.infoContaner</find>
+      <find>mainPage</find>
+      <find>landingPage</find>
       <find>infoContaner</find>
+      <find>info-container</find>
+      <find>banner</find>
+      <find>platrofmInfo</find>
+      <find>simpleStepsInfo</find>
+      <find>simpleSteps</find>
+      <find>aboutUsInfoImg</find>
+      <find>signature</find>
+      <find>ogranizationsTypes</find>
+      <find>collectionColumn</find>
+      <find>localCollContainer</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -96,7 +137,6 @@
         <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/components/Home.js" />
         <option value="$PROJECT_DIR$/src/components/landingPage.js" />
-        <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/components/isLoggedIn.js" />
         <option value="$PROJECT_DIR$/src/components/homeHeader.js" />
         <option value="$PROJECT_DIR$/src/components/headerIntro.js" />
@@ -115,20 +155,30 @@
         <option value="$PROJECT_DIR$/src/components/Section.js" />
         <option value="$PROJECT_DIR$/src/components/Navbar.js" />
         <option value="$PROJECT_DIR$/src/components/button.js" />
-        <option value="$PROJECT_DIR$/src/components/simpleSteps.js" />
+        <option value="$PROJECT_DIR$/src/App.js" />
+        <option value="$PROJECT_DIR$/src/components/oneColumn.js" />
+        <option value="$PROJECT_DIR$/src/components/simpleStep.js" />
+        <option value="$PROJECT_DIR$/src/components/topPage2.js" />
         <option value="$PROJECT_DIR$/src/components/topPage.js" />
+        <option value="$PROJECT_DIR$/src/components/simpleSteps.js" />
         <option value="$PROJECT_DIR$/src/components/aboutUs.js" />
-        <option value="$PROJECT_DIR$/src/components/home.js" />
         <option value="$PROJECT_DIR$/src/components/homeThreeColumns.js" />
         <option value="$PROJECT_DIR$/src/components/organizations.js" />
+        <option value="$PROJECT_DIR$/src/data/data.js" />
+        <option value="$PROJECT_DIR$/src/data/ogranizationData.js" />
         <option value="$PROJECT_DIR$/src/scss/main.scss" />
+        <option value="$PROJECT_DIR$/src/data/fundationData.js" />
+        <option value="$PROJECT_DIR$/src/data/localCollectionData.js" />
+        <option value="$PROJECT_DIR$/src/components/home.js" />
+        <option value="$PROJECT_DIR$/src/components/organizationTypes.js" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="26" />
-    <option name="width" value="1121" />
-    <option name="height" value="801" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="30" />
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="804" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -136,7 +186,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -165,6 +214,12 @@
               <item name="fundation-app" type="b2602c69:ProjectViewProjectNode" />
               <item name="fundation-app" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fundation-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fundation-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="scss" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -178,6 +233,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -227,17 +283,38 @@
       <updated>1581412115484</updated>
       <workItem from="1581412116898" duration="56999000" />
       <workItem from="1581765196632" duration="147000" />
-      <workItem from="1581846378897" duration="4468000" />
+      <workItem from="1581846378897" duration="5177000" />
+      <workItem from="1582020059503" duration="25796000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61614000" />
+    <option name="totallyTimeSpent" value="88119000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="804" extended-state="6" />
+    <frame x="30" y="23" width="1440" height="804" extended-state="0" />
     <editor active="true" />
     <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49790794" visible="true" weight="0.22198732" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" sideWeight="0.50209206" side_tool="true" weight="0.37155458" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3272472" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32863188" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.31320226" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+    <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49790794" visible="true" weight="0.2149401" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
@@ -252,27 +329,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3286517" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
-    <layout-to-restore>
-      <window_info id="npm" order="0" side_tool="true" />
-      <window_info id="Favorites" order="1" sideWeight="0.50209206" side_tool="true" weight="0.37155458" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.49790794" visible="true" weight="0.16038752" />
-      <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="1" visible="true" weight="0.3300423" />
-      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="3" />
-      <window_info anchor="bottom" id="Message" order="4" />
-      <window_info anchor="bottom" id="Find" order="5" />
-      <window_info anchor="bottom" id="Run" order="6" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.31320226" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -282,20 +339,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/logo.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -370,16 +413,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="55" lean-forward="true" selection-start-line="15" selection-start-column="55" selection-end-line="15" selection-end-column="55" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/DummyTest.js" />
     <entry file="file://$PROJECT_DIR$/src/components/probaScrolla.js" />
     <entry file="file://$PROJECT_DIR$/src/App.test.js">
@@ -401,13 +434,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/test2.js">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Section.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/DummyText.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -435,12 +461,8 @@
     <entry file="file://$PROJECT_DIR$/src/assets/Icon-1.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/scss/settings/_collors.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="5" selection-start-line="4" selection-end-line="4" selection-end-column="9" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/assets/People.jpg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/button.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -452,19 +474,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/People.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/topPage.js">
+    <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-161">
-          <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="70" />
+        <state relative-caret-position="210">
+          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Navbar.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
+        <state relative-caret-position="600">
           <caret line="40" column="44" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="44" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
@@ -472,20 +494,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/home.js">
+    <entry file="file://$PROJECT_DIR$/src/components/simpleStep.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+        <state relative-caret-position="135">
+          <caret line="9" column="57" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="57" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Section.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/topPage2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="31" column="22" lean-forward="true" selection-start-line="11" selection-start-column="16" selection-end-line="31" selection-end-column="22" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/aboutUs.js">
+    <entry file="file://$PROJECT_DIR$/src/components/topPage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="65" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="65" />
+        <state relative-caret-position="405">
+          <caret line="37" column="104" lean-forward="true" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="104" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
@@ -494,32 +533,107 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/simpleSteps.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="43" selection-start-line="1" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/homeThreeColumns.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/organizations.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="56" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="56" />
+        <state relative-caret-position="475">
+          <caret line="43" column="48" selection-start-line="43" selection-start-column="36" selection-end-line="43" selection-end-column="48" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/data.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/settings/_collors.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="5" selection-start-line="4" selection-end-line="4" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/scss/main.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="304" column="21" selection-start-line="304" selection-start-column="21" selection-end-line="304" selection-end-column="21" />
+        <state relative-caret-position="316">
+          <caret line="354" column="22" selection-start-line="354" selection-start-column="22" selection-end-line="354" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/homeThreeColumns.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/organizations.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="52" selection-start-line="2" selection-start-column="52" selection-end-line="2" selection-end-column="52" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/ogranizationData.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="9" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/localCollectionData.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="45" column="6" selection-start-line="45" selection-start-column="6" selection-end-line="45" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/fundationData.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="45" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/aboutUs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="18" column="48" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/oneColumn.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="40" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/organizationTypes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="55">
+          <caret line="21" column="40" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
         </state>
       </provider>
     </entry>

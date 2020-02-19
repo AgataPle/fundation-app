@@ -9,6 +9,11 @@ body {
   font-family: $font-base;
 }
 
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
 /*----- HEADER -----*/
 .containerGrig {
   height: 100%;
@@ -26,6 +31,7 @@ body {
 .rightContentGrid {
   z-index: 1;
 }
+
 
 /* ------ Login --------- */
 .loginButtons {
@@ -113,22 +119,20 @@ body {
 
 /*---- Statistics ------*/
 .infoContaner {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-direction: row;
-  padding: 46px 163px 86px;
   background: transparent url("../assets/3 Columns Background.png") 0% 0% no-repeat padding-box;
-  margin-bottom: 55px;
+}
+
+.info-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 384px;
 }
 
 .infoColumn {
   text-align: center;
 }
 
-.infoColumnFirst, .infoColumnSecond {
-  margin-right: 286px;
-}
 
 .statNumber {
   font-size: 90px;
@@ -139,8 +143,6 @@ body {
 .statInfo {
   font-size: 18px;
   color: $darkGrey;
-  text-transform: uppercase;
-  margin-bottom: 28px;
 }
 
 .statDescription {
@@ -150,11 +152,20 @@ body {
 }
 
 /* ----- Simple Steps ----- */
+.simpleStepsContainer {
+  width: 100%;
+}
+
+.stepsContainer {
+  width: 100%;
+}
+
 .simpleSteps {
   text-align: center;
 }
 
 .simpleStepsTitle {
+  padding-top: 50px;
   font-size: 38px;
   color: $darkGrey;
   margin-bottom: 25px;
@@ -168,11 +179,8 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  flex-direction: row;
   background: #F0F1F1 0% 0% no-repeat padding-box;
-  padding-top: 73px;
-  padding-bottom: 80px;
-  margin-bottom: 35px;
+  height: 325px;
 }
 
 .iconTitle {
@@ -187,12 +195,26 @@ body {
 
 .horizontalLine {
   width: 70px;
+  color: $darkGrey;
+}
+
+.uniBtn {
+  text-align: center;
+  text-decoration: none;
+  font-size: 36px;
+  color: $lightGrey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 13px 93px;
+
 }
 
 .componentBtn {
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 200px;
 }
 
 .uniwersalBtn {
@@ -204,15 +226,6 @@ body {
 
 /*----- About us ----- */
 
-//.containerAboutUs {
-//  margin-bottom: 70px;
-//  display: flex;
-//  justify-content: space-between;
-//  align-items: center;
-//  flex-direction: row;
-//  height: 935px;
-//  background-color: #F0F1F1;
-//}
 
 .containerAboutUs {
   width: 100%;
@@ -238,15 +251,14 @@ body {
 }
 
 .signature {
-  height: 100%;
+  height: 149px;
+  width: 210px;
+  background-image: url("../assets/Signature.svg");
 }
 
-.aboutUsInfoContainer {
-  width: 958px;
-}
 
 .aboutUsInfoImg {
-  width: 942px;
+  max-width: 100%
 }
 
 .aboutUsTitle {
@@ -262,6 +274,7 @@ body {
 .aboutUsInfo {
   margin-bottom: 41px;
 }
+
 
 /*----Organizations -----*/
 .organizationsContainer {
@@ -282,7 +295,7 @@ body {
 
 .ogranizationsTypes {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   flex-direction: row;
   font-size: 24px;
@@ -297,10 +310,61 @@ body {
   margin-bottom: 68px;
 }
 
-.fundations {
-  margin-right: 149px;
+.btnOrg {
+  width: 208px;
+  height: 79px;
 }
 
-.organizations {
-  margin-right: 157px;
+/* ----- Local Collections -----*/
+.collectionColumn {
+  height: 553px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+
+.localCollContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 81px;
+  flex-direction: row;
+  font-family: $font-alt;
+  border-bottom: 2px solid #707070;
+  padding-top: 34px;
+}
+
+.collectionTitle {
+  font-size: 26px;
+  color: $darkGrey;
+  padding-bottom: 6px;
+}
+
+.localTitle {
+  font-size: 22px;
+  color: $darkGrey;
+  text-align: center;
+}
+
+.titleSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 640px;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.collectionDesc {
+  font-size: 18px;
+  color: $darkGrey;
 }

@@ -12,7 +12,7 @@ export default class App extends Component {
     render() {
         return (
             <Router>
-                <div className="container">
+                <div>
                     <Route exact path="/" component={Home}/>
                 </div>
 
