@@ -11,7 +11,7 @@ export default class Navbar extends Component {
             <nav className="nav" id="navbar">
                 <div className="nav-content">
                     <ul className="nav-items">
-                        <li className="nav-item start">
+                        <button className="nav-item">
                             <Link
                                 activeClass="active"
                                 to="section2"
@@ -22,8 +22,8 @@ export default class Navbar extends Component {
                             >
                                 Start
                             </Link>
-                        </li>
-                        <li className="nav-item">
+                        </button>
+                        <button className="nav-item">
                             <Link
                                 activeClass="active"
                                 to="section2"
@@ -34,8 +34,8 @@ export default class Navbar extends Component {
                             >
                                 O co chodzi?
                             </Link>
-                        </li>
-                        <li className="nav-item">
+                        </button>
+                        <button className="nav-item">
                             <Link
                                 activeClass="active"
                                 to="section3"
@@ -46,8 +46,8 @@ export default class Navbar extends Component {
                             >
                                 O nas
                             </Link>
-                        </li>
-                        <li className="nav-item">
+                        </button>
+                        <button className="nav-item">
                             <Link
                                 activeClass="active"
                                 to="section4"
@@ -58,8 +58,8 @@ export default class Navbar extends Component {
                             >
                                 Fundacja i organizacje
                             </Link>
-                        </li>
-                        <li className="nav-item">
+                        </button>
+                        <button className="nav-item">
                             <Link
                                 activeClass="active"
                                 to="section5"
@@ -70,7 +70,7 @@ export default class Navbar extends Component {
                             >
                                 Kontakt
                             </Link>
-                        </li>
+                        </button>
                     </ul>
                 </div>
             </nav>

@@ -7,7 +7,7 @@ export default class Organizations extends Component {
     render() {
         return (
             <section className="organizationsContainer">
-                <div className="container">
+                <div className="container" id="section4">
                     <div><h2 className="organizationsTitle">Komu pomagamy?</h2></div>
                     <div className="organizationsDeco"><Decoration/></div>
                     <div className="organizationOption">

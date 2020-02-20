@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 
-import HomePageGrid from './topPage';
 import HomeThreeColumns from './homeThreeColumns';
 import SimpleSteps from './simpleSteps';
 import AboutUs from './aboutUs';
@@ -11,12 +10,14 @@ import LocalCollectionsComponent from './organizationTypes';
 import Section from './Section';
 import organizationsData from '../data/localCollectionData'
 
+import TopPage from './topPage2';
+
 export default class Home extends Component {
     render() {
         return (
             <div>
 
-                <HomePageGrid/>
+                <TopPage/>
                 <HomeThreeColumns/>
                 <SimpleSteps/>
                 <AboutUs/>

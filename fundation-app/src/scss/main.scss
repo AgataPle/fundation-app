@@ -52,7 +52,7 @@ body {
   text-decoration: none;
 }
 
-.makeAccount {
+.loginLink:hover {
   border: 0.75px solid $orange;
 }
 
@@ -72,18 +72,47 @@ body {
   color: $darkGrey;
   font-size: 18px;
   padding: 26px;
+  text-align: center;
+  border: none;
+  background-color: white;
+
 }
 
-.start {
+.nav-item:hover {
   border: 0.75px solid $darkGrey;
 }
 
-/*-----Platform info -------*/
+/* ----Top Section ---- */
+.topSection {
+  height: 963px;
+}
+
+.topSectionContainer {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+
+.banner1 {
+  transform: translateX(-35%);
+  z-index: 0;
+}
+
+.rightTop {
+  z-index: 1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  flex-direction: column;
+}
+
 .platrofmInfo {
   margin-top: 210px;
   text-align: center;
-  margin-right: 220px;
+  margin-right: 135px;
 }
+
 
 .mainInfo {
   font-size: 38px;
@@ -111,9 +140,24 @@ body {
 
 .infoButton {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   flex-direction: row;
+  margin-top: 65px;
+}
+
+.topPageButton {
+  width: 310px;
+  height: 120px;
+  border: 0.75px solid $darkGrey;
+  background-color: white;
+  font-size: 36px;
+
+}
+
+.topPageLink {
+  color: $darkGrey;
+  text-decoration: none;
 }
 
 
@@ -131,18 +175,20 @@ body {
 
 .infoColumn {
   text-align: center;
+  width: 334px;
 }
 
 
 .statNumber {
   font-size: 90px;
   color: $brown;
-  margin-bottom: 10px;
+  padding: 10px;
 }
 
 .statInfo {
   font-size: 18px;
   color: $darkGrey;
+  padding-bottom: 28px;
 }
 
 .statDescription {
@@ -195,7 +241,7 @@ body {
 
 .horizontalLine {
   width: 70px;
-  color: $darkGrey;
+  border-bottom: 1px solid $darkGrey;
 }
 
 .uniBtn {
@@ -231,7 +277,6 @@ body {
   width: 100%;
   display: grid;
   grid-template-columns: 50% 50%;
-  height: 935px;
   background-color: #F0F1F1;
 }
 
@@ -257,7 +302,7 @@ body {
 }
 
 
-.aboutUsInfoImg {
+.aboutUsInfoImg img {
   max-width: 100%
 }
 
@@ -356,6 +401,7 @@ body {
   width: 640px;
   padding-top: 70px;
   padding-bottom: 70px;
+  margin: 0 auto;
 }
 
 .pagination {

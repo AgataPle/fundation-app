@@ -16,14 +16,12 @@ function LocalCollection(props) {
 }
 
 export default class LocalCollectionsComponent extends Component {
-    constructor(props) {
+    constructor(props){
         super(props);
         this.state = {
             seconds: 0
-        }
-        ;
+        };
     }
-
     render() {
         const {localCollections} = this.props;
         const list = localCollections.map(local => {

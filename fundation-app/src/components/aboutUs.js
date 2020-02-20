@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import people from '../assets/people2.jpg';
-import {ReactComponent as Signature} from '../assets/Signature.svg';
 import {ReactComponent as Decoration} from '../assets/Decoration.svg';
 
 export default class AboutUs extends Component {
