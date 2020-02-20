@@ -48,7 +48,7 @@ export default class LocalCollectionsComponent extends Component {
                     <div className="pagination">
                         <p>Tutaj pagniacja tylko ukryta w tym przypadku by byla</p>
                     </div>
-                    <h3>Minęło {this.state.seconds} sekund</h3>
+                    <h3>Minęło {this.state.seconds}</h3>
                 </div>
             </section>
         )
