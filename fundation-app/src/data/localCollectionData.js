@@ -58,8 +58,23 @@ const organizationsData = [
             desc: "Zbierane rzeczy"
         },
         {
-            title: "Zbiórka 1",
-            aim: "Cel i misja: Cel organizacji trzeciej",
+            title: "Organizacja pozarządowa 2",
+            aim: "Cel i misja: Cel organizacji 2",
+            desc: "Zbierane rzeczy"
+        },
+        {
+            title: "Organizacja pozarządowa 2",
+            aim: "Cel i misja: Cel organizacji 2",
+            desc: "Zbierane rzeczy"
+        },
+        {
+            title: "Organizacja pozarządowa 2",
+            aim: "Cel i misja: Cel organizacji 2",
+            desc: "Zbierane rzeczy"
+        },
+        {
+            title: "Organizacja pozarządowa 2",
+            aim: "Cel i misja: Cel organizacji 2",
             desc: "Zbierane rzeczy"
         }
     ],

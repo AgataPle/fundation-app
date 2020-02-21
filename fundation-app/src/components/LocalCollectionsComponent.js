@@ -16,13 +16,14 @@ function LocalCollection(props) {
 }
 
 export default class LocalCollectionsComponent extends Component {
-    constructor(props){
+    constructor(props) {
         super(props);
         this.state = {
-            seconds: 0,
             selectedPage: 0
+
         };
     }
+
     render() {
         const {currentPage} = this.props;
         console.log(currentPage);
@@ -52,7 +53,7 @@ export default class LocalCollectionsComponent extends Component {
                     <div className="pagination">
                         <p>Tutaj pagniacja tylko ukryta w tym przypadku by byla</p>
                     </div>
-                    <h3>Minęło {this.state.seconds}</h3>
+
                 </div>
             </section>
         )

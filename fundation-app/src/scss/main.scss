@@ -303,7 +303,7 @@ body {
 
 
 .aboutUsInfoImg img {
-  max-width: 100%
+  max-width: 100%;
 }
 
 .aboutUsTitle {
@@ -413,4 +413,125 @@ body {
 .collectionDesc {
   font-size: 18px;
   color: $darkGrey;
+}
+
+/* ---- Form ---- */
+.form-box {
+  background-image: url("../assets/Background-Contact-Form.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 1026px;
+  max-width: 100%;
+  opacity: 50%;
+}
+
+
+.formContainer {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.footer {
+  margin-top: 273px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.facebook {
+  background-image: url("../assets/Facebook.png");
+}
+
+.instagram {
+  background-image: url("../assets/Instagram.png");
+}
+
+.facebook, .instagram {
+  width: 30px;
+  height: 30px;
+}
+
+.socialMedia {
+  display: flex;
+}
+
+.form {
+  padding-top: 200px;
+  margin-left: 226px;
+  opacity: 1;
+}
+
+form {
+  height: 327px;
+}
+
+.footetTitle {
+  font-size: 18px;
+}
+
+.formIntro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.formTitle {
+  font-size: 38px;
+  text-align: center;
+}
+
+
+.topForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.formBox {
+  width: 528px;
+  height: 327px;
+  margin-top: 70px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: stretch;
+  flex-direction: column;
+}
+
+.message {
+  width: 100%;
+  height: 97px;
+  font-size: 18px;
+}
+
+.emailPlace, .namePlace {
+  width: 256px;
+  font-size: 18px;
+  border-bottom: 1px solid $darkGrey;
+}
+
+.submitBtn {
+  display: flex;
+  justify-content: flex-end;
+
+}
+
+.formDeco {
+  margin-top: 31px;
+}
+
+.message, .name, .email {
+  border: none;
+  border-bottom: 1px solid $darkGrey;
+}
+
+.submit {
+  width: 150px;
+  height: 50px;
+  border: 1px solid $darkGrey;
+  background-color: white;
+  margin-top: 50px;
 }

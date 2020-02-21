@@ -9,21 +9,19 @@ import Section from './Section';
 
 import TopPage from './topPage2';
 import OrganizationContainer from "./OrganizationContainer";
+import Form from './Form';
 
 export default class Home extends Component {
     render() {
         return (
             <div>
-
                 <TopPage/>
                 <HomeThreeColumns/>
                 <SimpleSteps/>
                 <AboutUs/>
-                <OrganizationContainer />
-                <br/>
-                <br/>
-                <br/>
-                <br/>
+
+                <OrganizationContainer/>
+                <Form/>
                 <div className="scrollTest">
 
                     <Section
