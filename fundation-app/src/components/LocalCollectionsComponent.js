@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-
+import organizationsData from '../data/localCollectionData';
 
 function LocalCollection(props) {
     return (
@@ -19,12 +19,15 @@ export default class LocalCollectionsComponent extends Component {
     constructor(props){
         super(props);
         this.state = {
-            seconds: 0
+            seconds: 0,
+            selectedPage: 0
         };
     }
     render() {
-        const {localCollections} = this.props;
-        const list = localCollections.map(local => {
+        const {currentPage} = this.props;
+        console.log(currentPage);
+        console.log(organizationsData);
+        const list = organizationsData[`${currentPage}`].map(local => {
             return (
 
                 <LocalCollection
@@ -35,6 +38,7 @@ export default class LocalCollectionsComponent extends Component {
 
             );
         });
+
         return (
             <section className="collectionColumn">
                 <div className="container">
@@ -54,3 +58,7 @@ export default class LocalCollectionsComponent extends Component {
         )
     }
 }
+
+
+//container -> fun zmienala state - currentPage
+//fun -> przekazac organizations
