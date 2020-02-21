@@ -535,3 +535,61 @@ form {
   background-color: white;
   margin-top: 50px;
 }
+
+/*--- LoginSection ----*/
+.loginSection {
+  height: 100%;
+}
+
+.loginBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 123px;
+  width: 504px;
+}
+
+.loginSectionTitle {
+  font-size: 38px;
+  margin-bottom: 30px;
+}
+
+.loginForm {
+  height: 235px;
+  width: 384.5px;
+  background-color: #F0F1F1;
+  display: flex;
+  justify-content: center; //dlaczego tutaj nie działa center
+  align-items: center;
+  flex-direction: column;
+}
+
+.loginSectionBtn {
+  width: 117px;
+  height: 50px;
+  border: none;
+}
+
+.loginSectionBtn:hover {
+  border: 0.75px solid $darkGrey;
+}
+
+
+.loginBtns {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  margin-top: 40px;
+}
+
+.loginSectionDeco {
+  margin-bottom: 60px;
+}
+
+.emailLoginSection, .passwordLoginSection {
+  border: none;
+  border-bottom: 1px solid $darkGrey;
+}

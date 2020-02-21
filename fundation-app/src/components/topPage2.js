@@ -5,6 +5,7 @@ import {ReactComponent as Decoration} from '../assets/Decoration.svg';
 import {Link} from 'react-router-dom';
 import NavBar from './Navbar';
 import people from "../assets/people2.jpg";
+import LoginButtons from './LoginButtons';
 
 export default class TopPage extends Component {
     render() {
@@ -17,10 +18,7 @@ export default class TopPage extends Component {
                         </div>
                     </div>
                     <div className="rightTop">
-                        <div className="loginButtons">
-                            <Link to="/login" className="loginLink">Zaloguj</Link>
-                            <Link to="/rejestration" className="loginLink">Załuż konto</Link>
-                        </div>
+                        <LoginButtons/>
                         <NavBar/>
                         <div className="platrofmInfo">
                             <div><h2 className="mainInfo">Zacznij pomagać!<br/>Oddaj niechciane rzeczy w zaufane
@@ -30,8 +28,11 @@ export default class TopPage extends Component {
                             <div className="infoButton">
                                 {/*<Link to="/login" className="toLoginSection btn">ODDAJ<br/>RZECZY</Link>*/}
                                 {/*<Link to="/login" className="toLoginSection btn btn1">ZORGANIZUJ<br/>ZBIÓRKĘ</Link>*/}
-                                <button className="topPageButton"><Link to="/login"className="topPageLink">ODDAJ<br/>RZECZY</Link></button>
-                                <button className="topPageButton"><Link to="/login"className="topPageLink">ZORGANIZUJ<br/>ZBIÓRKĘ</Link></button>
+                                <button className="topPageButton"><Link to="/login" className="topPageLink">ODDAJ<br/>RZECZY</Link>
+                                </button>
+                                <button className="topPageButton"><Link to="/login"
+                                                                        className="topPageLink">ZORGANIZUJ<br/>ZBIÓRKĘ</Link>
+                                </button>
                             </div>
                         </div>
 
