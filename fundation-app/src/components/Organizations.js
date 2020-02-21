@@ -4,7 +4,7 @@ import {ReactComponent as Decoration} from '../assets/Decoration.svg';
 
 export default class Organizations extends Component {
     handleOnClick = e => {
-        this.props.changePage(e.target.id);
+        this.props.changeTab(e.target.id);
     };
 
     render() {

@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import organizationsData from '../data/localCollectionData';
+
 
 function LocalCollection(props) {
     return (
@@ -19,16 +19,13 @@ export default class LocalCollectionsComponent extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            selectedPage: 0
-
+            currentPage: 1,
+            itemsPerPage: 3
         };
     }
 
     render() {
-        const {currentPage} = this.props;
-        console.log(currentPage);
-        console.log(organizationsData);
-        const list = organizationsData[`${currentPage}`].map(local => {
+        const list = this.props.organizations.map(local => {
             return (
 
                 <LocalCollection

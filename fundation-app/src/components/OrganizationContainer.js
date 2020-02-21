@@ -1,19 +1,20 @@
 import React, {Component} from 'react';
 import LocalCollectionsComponent from './LocalCollectionsComponent'
 import Organizations from './Organizations'
+import organizationsData from '../data/localCollectionData';
 
 class OrganizationContainer extends Component {
     constructor(props) {
         super(props);
 
         this.state = {
-            currentPage: 0
+            organizations: organizationsData[0]
         }
     }
 
-    changeCurrentPage = id => {
+    changeCurrentTab = id => {
         this.setState({
-            currentPage: id
+            organizations: organizationsData[id]
         });
     };
 
@@ -21,8 +22,8 @@ class OrganizationContainer extends Component {
     render() {
         return (
             <div>
-                <Organizations changePage={this.changeCurrentPage} />
-                <LocalCollectionsComponent currentPage={this.state.currentPage} />
+                <Organizations changeTab={this.changeCurrentTab} />
+                <LocalCollectionsComponent organizations={this.state.organizations} />
             </div>
         );
     }
