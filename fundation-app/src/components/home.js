@@ -21,6 +21,7 @@ export default class Home extends Component {
                 <AboutUs/>
 
                 <OrganizationContainer/>
+                <br/>
                 <Form/>
                 <div className="scrollTest">
 

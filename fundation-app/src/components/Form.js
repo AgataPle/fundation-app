@@ -11,9 +11,8 @@ export default class Form extends Component {
     render() {
         return (
             <section>
-                <div className="form-box">
                     <div className="container formContainer">
-                        <div className="empthy"></div>
+                        <div></div>
                         <div className="form">
                             <div className="formIntro">
                                 <h1 className="formTitle">Skontaktuj się z nami</h1>
@@ -55,10 +54,7 @@ export default class Form extends Component {
                                 </div>
                             </footer>
                         </div>
-
                     </div>
-
-                </div>
             </section>
         )
     }
