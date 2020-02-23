@@ -516,7 +516,9 @@ form {
   justify-content: center;
   align-items: center;
   flex-direction: row;
+  border: none;
 }
+
 
 .formBox {
   width: 528px;
@@ -536,8 +538,15 @@ form {
 
 .emailPlace, .namePlace {
   width: 256px;
+  height: 62px;
   font-size: 18px;
   border-bottom: 1px solid $darkGrey;
+}
+
+textarea {
+  width: 256px;
+  font-size: 18px;
+  border-bottom: 1px solid red;
 }
 
 .submitBtn {
