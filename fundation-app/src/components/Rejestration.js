@@ -35,7 +35,7 @@ export default class Login extends Component {
                 <LoginButtons/>
                 <NavBar/>
                 <div className="container loginBox">
-                    <div className="loginSectionTitle"><h1>Zaloguj się</h1></div>
+                    <div className="loginSectionTitle"><h1>Załóż konto</h1></div>
                     <div className="loginSectionDeco"><Decoration/></div>
                     <div className="loginForm">
                         <form className="box" onSubmit={this.handleSubmit}>
@@ -51,13 +51,23 @@ export default class Login extends Component {
                             <div className="form__field">
                                 <input type="password" className="form__field__input" placeholder=" "
                                        pattern="[A-Za-z]{6,99}" required
-                                       onChange={this.handlePasswordChange}/>
+                                       onChange={this.handlePasswordChange}
+                                       name="password1" id="password1"
+                                />
                                 <label htmlFor="" className="form__field__label">Hasło</label>
                                 <p className="form__field__error">Podane hasło jest za krótkie</p>
 
                             </div>
+                            <div className="form__field">
+                                <input type="password" className="form__field__input" placeholder=" "
+                                       pattern="[A-Za-z]{6,99}" required
+                                       onChange={this.handlePasswordChange}
+                                       name="password2" id="password2"
+                                />
+                                <label htmlFor="" className="form__field__label">Powtórz hasło</label>
+                                <p className="form__field__error">Podane hasło jest za krótkie</p>
 
-
+                            </div>
                         </form>
                     </div>
                     <div className="loginBtns">
@@ -71,3 +81,4 @@ export default class Login extends Component {
     }
 
 }
+

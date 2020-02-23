@@ -404,40 +404,66 @@ body {
   margin: 0 auto;
 }
 
-.pagination {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
 .collectionDesc {
   font-size: 18px;
   color: $darkGrey;
 }
 
-/* ---- Form ---- */
-.form-box {
-  background-image: url("../assets/Background-Contact-Form.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 1026px;
-  max-width: 100%;
-  opacity: 50%;
+/* ---- Pagination ---- */
+.pageNumbers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
 }
 
+.pageButton {
+  text-decoration: none;
+  color: $darkGrey;
+  font-size: 18px;
+  padding: 26px;
+  text-align: center;
+  border: none;
+  background-color: white;
+}
+
+
+.pageButton:hover {
+  border: 1px solid $darkGrey;
+}
+
+/* ---- Form ---- */
 
 .formContainer {
   height: 100%;
   width: 100%;
   display: grid;
   grid-template-columns: 50% 50%;
+  position: relative;
 }
 
+.formContainer::after {
+  content: "";
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+  background-size: contain;
+  background: url("../assets/Background-Contact-Form.jpg") no-repeat;
+  max-height: 100%;
+
+}
+
+
 .footer {
-  margin-top: 273px;
+  margin-top: 120px;
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: space-around;
 }
 
 .facebook {
@@ -465,6 +491,7 @@ body {
 
 form {
   height: 327px;
+  grid-column: 2;
 }
 
 .footetTitle {
@@ -489,7 +516,9 @@ form {
   justify-content: center;
   align-items: center;
   flex-direction: row;
+  border: none;
 }
+
 
 .formBox {
   width: 528px;
@@ -509,8 +538,15 @@ form {
 
 .emailPlace, .namePlace {
   width: 256px;
+  height: 62px;
   font-size: 18px;
   border-bottom: 1px solid $darkGrey;
+}
+
+textarea {
+  width: 256px;
+  font-size: 18px;
+  border-bottom: 1px solid red;
 }
 
 .submitBtn {
@@ -534,6 +570,10 @@ form {
   border: 1px solid $darkGrey;
   background-color: white;
   margin-top: 50px;
+}
+
+.submit, .message, .email, .name {
+  background: transparent;
 }
 
 /*--- LoginSection ----*/
@@ -684,4 +724,24 @@ form {
 .form__field__input:placeholder-shown + .form__field__label {
   top: .35rem;
   font-size: 1rem;
+}
+
+/*----Rejestration ---- */
+
+/*----- Logout ------ */
+.logoutSectionTitle {
+  font-size: 38px;
+  text-align: center;
+  margin-bottom: 31px;
+}
+
+.logoutBtn {
+  width: 150px;
+  height: 50px;
+}
+
+.logoutLink {
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
 }
