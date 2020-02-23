@@ -1,9 +1,9 @@
 const organizationsData = [
     [
         {
-        title: "Fundacja “Dbam o Zdrowie”",
-        aim: "Cel i misja: Pomoc osobom znajdującym się w trudnej sytuacji życiowej.",
-        desc: "ubrania, jedzenie, sprzęt AGD, meble, zabawki"
+            title: "Fundacja “Dbam o Zdrowie”",
+            aim: "Cel i misja: Pomoc osobom znajdującym się w trudnej sytuacji życiowej.",
+            desc: "ubrania, jedzenie, sprzęt AGD, meble, zabawki"
         },
         {
             title: "Fundacja “Dla dzieci”",
@@ -36,16 +36,16 @@ const organizationsData = [
             desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
         },
         {
-        title: "Fundacja 8",
-        aim: "Cel i misja: Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+            title: "Fundacja 8",
+            aim: "Cel i misja: Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
         },
         {
             title: "Fundacja 9",
             aim: "Cel i misja: Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
             desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
         }
-        ],
+    ],
     [
         {
             title: "Organizacja pozarządowa 1",
@@ -54,27 +54,27 @@ const organizationsData = [
         },
         {
             title: "Organizacja pozarządowa 2",
-            aim: "Cel i misja: Cel organizacji 2",
+            aim: "Cel i misja: Cel organizacji drugiej",
             desc: "Zbierane rzeczy"
         },
         {
-            title: "Organizacja pozarządowa 2",
-            aim: "Cel i misja: Cel organizacji 2",
+            title: "Organizacja pozarządowa 3",
+            aim: "Cel i misja: Cel organizacji trzeciej",
             desc: "Zbierane rzeczy"
         },
         {
-            title: "Organizacja pozarządowa 2",
-            aim: "Cel i misja: Cel organizacji 2",
+            title: "Organizacja pozarządowa 4",
+            aim: "Cel i misja: Cel organizacji czwartej",
             desc: "Zbierane rzeczy"
         },
         {
-            title: "Organizacja pozarządowa 2",
-            aim: "Cel i misja: Cel organizacji 2",
+            title: "Organizacja pozarządowa 5",
+            aim: "Cel i misja: Cel organizacji piątej",
             desc: "Zbierane rzeczy"
         },
         {
-            title: "Organizacja pozarządowa 2",
-            aim: "Cel i misja: Cel organizacji 2",
+            title: "Organizacja pozarządowa 6",
+            aim: "Cel i misja: Cel organizacji szóstej",
             desc: "Zbierane rzeczy"
         }
     ],
@@ -93,8 +93,13 @@ const organizationsData = [
             title: "Zbiórka 3",
             aim: "Cel i misja: Cel zbiórki trzeciej",
             desc: "Zbierane rzeczy"
+        },
+        {
+            title: "Zbiórka 3",
+            aim: "Cel i misja: Cel zbiórki trzeciej",
+            desc: "Zbierane rzeczy"
         }
-        ]
+    ]
 ];
 
 export default organizationsData;
