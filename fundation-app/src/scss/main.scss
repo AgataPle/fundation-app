@@ -8,3 +8,530 @@
 body {
   font-family: $font-base;
 }
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+/*----- HEADER -----*/
+.containerGrig {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+
+}
+
+.banner {
+  transform: translateX(-35%);
+  z-index: 0;
+}
+
+.rightContentGrid {
+  z-index: 1;
+}
+
+
+/* ------ Login --------- */
+.loginButtons {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  margin-top: 37px;
+  margin-right: 142px;
+  font-size: 14px;
+  color: $lightGrey;
+}
+
+
+.loginLink {
+  padding: 10px;
+  font-size: 14px;
+  color: $lightGrey;
+  text-decoration: none;
+}
+
+.loginLink:hover {
+  border: 0.75px solid $orange;
+}
+
+/*----- Nav Menu ------*/
+.nav-items {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  margin-right: 142px;
+  margin-top: 17px;
+
+
+}
+
+.nav-item {
+  text-decoration: none;
+  color: $darkGrey;
+  font-size: 18px;
+  padding: 26px;
+  text-align: center;
+  border: none;
+  background-color: white;
+
+}
+
+.nav-item:hover {
+  border: 0.75px solid $darkGrey;
+}
+
+/* ----Top Section ---- */
+.topSection {
+  height: 963px;
+}
+
+.topSectionContainer {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+
+.banner1 {
+  transform: translateX(-35%);
+  z-index: 0;
+}
+
+.rightTop {
+  z-index: 1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  flex-direction: column;
+}
+
+.platrofmInfo {
+  margin-top: 210px;
+  text-align: center;
+  margin-right: 135px;
+}
+
+
+.mainInfo {
+  font-size: 38px;
+  line-height: 1.55em;
+}
+
+.btn {
+  width: 310px;
+  height: 120px;
+  border: 0.75 solid $lightGrey;
+  margin-top: 60px;
+}
+
+.toLoginSection {
+  font-size: 36px;
+  text-decoration: none;
+  color: $darkGrey;
+  border: 0.75px solid $darkGrey;
+  padding-top: 13px;
+}
+
+.btn1 {
+  margin-left: 44px;
+}
+
+.infoButton {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 65px;
+}
+
+.topPageButton {
+  width: 310px;
+  height: 120px;
+  border: 0.75px solid $darkGrey;
+  background-color: white;
+  font-size: 36px;
+
+}
+
+.topPageLink {
+  color: $darkGrey;
+  text-decoration: none;
+}
+
+
+/*---- Statistics ------*/
+.infoContaner {
+  background: transparent url("../assets/3 Columns Background.png") 0% 0% no-repeat padding-box;
+}
+
+.info-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 384px;
+}
+
+.infoColumn {
+  text-align: center;
+  width: 334px;
+}
+
+
+.statNumber {
+  font-size: 90px;
+  color: $brown;
+  padding: 10px;
+}
+
+.statInfo {
+  font-size: 18px;
+  color: $darkGrey;
+  padding-bottom: 28px;
+}
+
+.statDescription {
+  font-family: $font-alt;
+  font-size: 16px;
+  color: $darkGrey;
+}
+
+/* ----- Simple Steps ----- */
+.simpleStepsContainer {
+  width: 100%;
+}
+
+.stepsContainer {
+  width: 100%;
+}
+
+.simpleSteps {
+  text-align: center;
+}
+
+.simpleStepsTitle {
+  padding-top: 50px;
+  font-size: 38px;
+  color: $darkGrey;
+  margin-bottom: 25px;
+}
+
+.decoration {
+  margin-bottom: 34px;
+}
+
+.simpleStepsInfo {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #F0F1F1 0% 0% no-repeat padding-box;
+  height: 325px;
+}
+
+.iconTitle {
+  margin: 8px 3px;
+  font-size: 18px;
+
+}
+
+.iconInfo {
+  font-size: 16px;
+}
+
+.horizontalLine {
+  width: 70px;
+  border-bottom: 1px solid $darkGrey;
+}
+
+.uniBtn {
+  text-align: center;
+  text-decoration: none;
+  font-size: 36px;
+  color: $lightGrey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 13px 93px;
+
+}
+
+.componentBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+
+.uniwersalBtn {
+  margin-top: 35px;
+  margin-bottom: 93px;
+  padding-top: 13px;
+  padding-left: 93px;
+}
+
+/*----- About us ----- */
+
+
+.containerAboutUs {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  background-color: #F0F1F1;
+}
+
+
+.aboutUsInfo {
+  font-size: 30px;
+  text-align: center;
+  width: 656px;
+}
+
+
+.aboutUsInfoContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.signature {
+  height: 149px;
+  width: 210px;
+  background-image: url("../assets/Signature.svg");
+}
+
+
+.aboutUsInfoImg img {
+  max-width: 100%;
+}
+
+.aboutUsTitle {
+  margin-top: 186px;
+  margin-bottom: 39px;
+  font-size: 38px;
+}
+
+.aboutUsDeco {
+  margin-bottom: 61px;
+}
+
+.aboutUsInfo {
+  margin-bottom: 41px;
+}
+
+
+/*----Organizations -----*/
+.organizationsContainer {
+  margin-top: 70px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+
+}
+
+.organizationsContent {
+  width: 1344px;
+
+}
+
+.ogranizationsTypes {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  font-size: 24px;
+}
+
+.organizationsTitle {
+  margin-bottom: 39px;
+  font-size: 38px;
+}
+
+.organizationsDeco {
+  margin-bottom: 68px;
+}
+
+.btnOrg {
+  width: 208px;
+  height: 79px;
+}
+
+/* ----- Local Collections -----*/
+.collectionColumn {
+  height: 553px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+
+.localCollContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 81px;
+  flex-direction: row;
+  font-family: $font-alt;
+  border-bottom: 2px solid #707070;
+  padding-top: 34px;
+}
+
+.collectionTitle {
+  font-size: 26px;
+  color: $darkGrey;
+  padding-bottom: 6px;
+}
+
+.localTitle {
+  font-size: 22px;
+  color: $darkGrey;
+  text-align: center;
+}
+
+.titleSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 640px;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  margin: 0 auto;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.collectionDesc {
+  font-size: 18px;
+  color: $darkGrey;
+}
+
+/* ---- Form ---- */
+.form-box {
+  background-image: url("../assets/Background-Contact-Form.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 1026px;
+  max-width: 100%;
+  opacity: 50%;
+}
+
+
+.formContainer {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.footer {
+  margin-top: 273px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.facebook {
+  background-image: url("../assets/Facebook.png");
+}
+
+.instagram {
+  background-image: url("../assets/Instagram.png");
+}
+
+.facebook, .instagram {
+  width: 30px;
+  height: 30px;
+}
+
+.socialMedia {
+  display: flex;
+}
+
+.form {
+  padding-top: 200px;
+  margin-left: 226px;
+  opacity: 1;
+}
+
+form {
+  height: 327px;
+}
+
+.footetTitle {
+  font-size: 18px;
+}
+
+.formIntro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.formTitle {
+  font-size: 38px;
+  text-align: center;
+}
+
+
+.topForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.formBox {
+  width: 528px;
+  height: 327px;
+  margin-top: 70px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: stretch;
+  flex-direction: column;
+}
+
+.message {
+  width: 100%;
+  height: 97px;
+  font-size: 18px;
+}
+
+.emailPlace, .namePlace {
+  width: 256px;
+  font-size: 18px;
+  border-bottom: 1px solid $darkGrey;
+}
+
+.submitBtn {
+  display: flex;
+  justify-content: flex-end;
+
+}
+
+.formDeco {
+  margin-top: 31px;
+}
+
+.message, .name, .email {
+  border: none;
+  border-bottom: 1px solid $darkGrey;
+}
+
+.submit {
+  width: 150px;
+  height: 50px;
+  border: 1px solid $darkGrey;
+  background-color: white;
+  margin-top: 50px;
+}
